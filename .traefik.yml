@@ -1,0 +1,10 @@
+displayName: "ReProxied"
+type: middleware
+
+import: github.com/portofrotterdam/reproxied
+
+summary: "Route an incoming request through a proxy"
+
+testData:
+  proxy: http://proxyHost:3128
+  targetHost: https://example.com
